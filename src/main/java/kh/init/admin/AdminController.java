@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class AdminController {
 	
-	@RequestMapping(value = "/main.do")
+	@RequestMapping("index")
 	public String toMain() {
-		return "main";
+		return "index";
 	}
 }
