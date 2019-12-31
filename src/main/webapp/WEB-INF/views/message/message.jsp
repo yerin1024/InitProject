@@ -10,5 +10,10 @@
 </head>
 <body>
 
+	<div>
+		<div></div>
+		<input type="text" name="inputMsg"><input type="button">
+	</div>
+
 </body>
 </html>

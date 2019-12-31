@@ -9,6 +9,12 @@
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 </head>
 <body>
-
+	<form action="member/signup.do" method="post" id="signupFrm">
+		<div class="container">
+			<div class="idDiv">
+			
+			</div>
+		</div>
+	</form>
 </body>
 </html>
