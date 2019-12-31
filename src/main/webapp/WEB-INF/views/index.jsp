@@ -18,7 +18,8 @@
 <body>
 	<div id="wrapper">
 		<form action="member/login.do" method="post">
-		
+			<span class="title">아이디</span><input type="text" name="id">
+			<span class="title">비밀번호</span><input type="text" name="pw">
 		</form>
 	</div>
 </body>
