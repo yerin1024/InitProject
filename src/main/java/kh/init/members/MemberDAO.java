@@ -15,7 +15,7 @@ public class MemberDAO {
 	
 	
 	public int loginCheck(String id, String pw) {
-		Map<String, String> param = new HashMap<>();
+		Map<String, String> param = new HashMap<String, String>();
 		param.put("id", id);
 		param.put("pw", pw);
 		return jdbc.selectOne("Member.isLoginOk", param);
